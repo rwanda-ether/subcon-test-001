@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import random
 
-random.seed(0)
+random.seed()
 
 with open("log.txt", "r") as f:
     lines = f.read()
@@ -16,7 +16,7 @@ n = 1
 commits = []
 
 for s in lines:
-    c = random.uniform(1.0,1.5)
+    c = random.uniform(0.9,1.5)
     #print(n, x, c, s)
     commits.append({'n': n, 'x': x, 'c': c, 'hash': s})
     x = int(x * c + 0.5)
