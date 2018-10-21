@@ -18,8 +18,6 @@ This is a traning example for the Rwanda Ether community to share subcon works.
 
 # Initial Budget from a Client = 8000000 JPY (example case)
 
-# Initial Budget from a Client = 8000000 JPY (example case)
-
 | n | X(n) | C(n) | commit hash | balance (MAK) | Client's Budget (JPY) |
 |---:|---:|---:|:---| ---:|---:|
 | 1 | 100 | 1.754 | commit 404d41872bf4122dca45d5d159d47c39d6a71490 | 100 | 7999900|
