@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#Time-stamp: <Mon Oct 22 00:15:40 JST 2018 hamada>
+#Time-stamp: <Mon Oct 22 00:50:58 JST 2018 hamada>
 import random
 
 random.seed()
@@ -17,7 +17,7 @@ n = 1
 commits = []
 
 for s in lines:
-    c = random.uniform(1.49, 2.0)
+    c = random.uniform(1., 2.)
     #print(n, x, c, s)
     commits.append({'n': n, 'x': x, 'c': c, 'hash': s})
     x = int(x * (c-0.5) + 0.5)
