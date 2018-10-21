@@ -11,6 +11,7 @@ This is a traning example for the Rwanda Ether community to share subcon works.
  * n-th commit: + X(n-1) MAK, the X(n-1) depends on the (n-1) th commit.
  * X(n) = X(n-1) * C(n-1), 0.5 < C(n-1) < 1.5
  * C(n) is a quality coefficient for n-th commit. If the commit was good quality, C is larger than 1.0. On the other hand, if it was not so good, C is less than 1.0.
+ * each X(n) is rounded to the nearest even.
 
 ## Example
 
