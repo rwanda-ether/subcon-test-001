@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#Time-stamp: <Mon Oct 22 00:52:34 JST 2018 hamada>
+#Time-stamp: <Mon Oct 22 01:16:35 JST 2018 hamada>
 import random
 
 random.seed()
@@ -24,15 +24,28 @@ for s in lines:
     n += 1
 
 
+budget_JPY = 8000000
+
 md  = ''
-md += '| n | X(n) | C(n) | commit hash | balance (MAK) |' + "\n"
+md += "# Initial Budget from a Client = %d JPY (example case)" % budget_JPY +"\n"
+md += '| n | X(n) | C(n) | commit hash | balance (MAK) | Client\'s Budget (JPY) |' + "\n"
 md += '|---:|---:|---:|:---| ---:|' + "\n"
 
 accum = 0
 
+
 for s in commits:
-    accum += s['x']
-    md += "| %d | %d | %1.3f | %s | %d |\n" % (s['n'], s['x'], s['c'], s['hash'], accum)
+    salary = s['x']
+
+    if budget_JPY >= salary:
+        budget_JPY -= salary
+        accum += salary
+    else:
+        salary = budget_JPY
+        budget_JPY = 0
+
+    md += "| %d | %d | %1.3f | %s | %d | %d|\n" % (s['n'], salary, s['c'], s['hash'], accum, budget_JPY)
+
 
 
 print (md)
