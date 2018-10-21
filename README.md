@@ -2,9 +2,9 @@
 
 This is a traning example for the Rwanda Ether community to share subcon works.
 
-# Roughly Design
+# Models
 
-## Incentive plan
+## Incentive model
 
  * 1st commit: +100 MAK
  * 2nd commit: + X(1) MAK, the X(1) depends on the first commit.
@@ -64,7 +64,7 @@ This is a traning example for the Rwanda Ether community to share subcon works.
 | 44 | 911394 | 1.696 | commit d23e2e26dbdb2a98c0186d2897c72249fc26a260 | 6141672 |
 
 
-## Negative Incentive plan
+## Negative Incentive model
 
  * Annoyance: banned (1 month)
  * Cheating: banned (3 month)
@@ -73,6 +73,6 @@ This is a traning example for the Rwanda Ether community to share subcon works.
 
 If you have any question, please add below. It will be also counted as 1 commit. 
 
- * brah brah brah
- * brah brah brah
+ * Q1:
+ * Q2:
 
