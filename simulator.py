@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#Time-stamp: <Mon Oct 22 01:20:49 JST 2018 hamada>
+#Time-stamp: <Mon Oct 22 01:23:37 JST 2018 hamada>
 import random
 
 random.seed()
@@ -42,6 +42,7 @@ for s in commits:
         accum += salary
     else:
         salary = budget_JPY
+        accum += salary
         budget_JPY = 0
 
     md += "| %d | %d | %1.3f | %s | %d | %d|\n" % (s['n'], salary, s['c'], s['hash'], accum, budget_JPY)
