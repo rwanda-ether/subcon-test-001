@@ -1,6 +1,9 @@
 --------------------------------------------------------------
 n, X(n), C(n), commit hash
 --------------------------------------------------------------
+12, 2564, 1.5, commit be1f3408dc8edb7ed4d7e4f0a0bc3c89dc70ecd7
+11, 1709, 1.5, commit 372ca29fba3a52bafc5d651c87fdaa0edd09ee0b
+10, 1139, 1.5, commit 432de77aa051ff0a5e0d9b54e08c57d9787b6729
 9,  759,  1.5, commit 4eaabc827342ddbc9bd095b53d5ba0b97e3c3a86
 8,  507,  1.5, commit dbf68749cb635e55a5f5b63b4e1a5477752ea886
 7,  362,  1.4, commit a7f59116975c02adbe6060a387e7656d4c147942
