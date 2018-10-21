@@ -13,6 +13,13 @@ This is a traning example for the Rwanda Ether community to share subcon works.
  * C(n) is a quality coefficient for n-th commit. If the commit was good quality, C is larger than 1.0. On the other hand, if it was not so good, C is less than 1.0.
 
 
+$$
+\begin{eqnarray}
+4a &=& ((a+a)+a)+a \\
+   &=& (a+a)+(a+a)
+\end{eqnarray}
+$$
+
 ## Negative Incentive plan
 
  * Annoyance: banned (1 month)
