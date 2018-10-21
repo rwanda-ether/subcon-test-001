@@ -1,13 +1,14 @@
 # Subcon test 001
 
-This is an traning example for the Rwanda Ether community to share subcon works.
+This is a traning example for the Rwanda Ether community to share subcon works.
 
 # Roughly Design
 
 ## Incentive plan
 
- * 1 commit: +100 MAK
- * 1 pull request: +10 MAK
+ * first commit: +100 MAK
+ * Second commit: + X(1) MAK, the X(1) depends on the first commit.
+ * n-th commit: + X(n-1) MAK, the X(n-1) depends on the (n-1) th commit.
 
 ## Negative Incentive plan
 
