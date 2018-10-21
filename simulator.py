@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-#Time-stamp: <Mon Oct 22 01:23:37 JST 2018 hamada>
+#Time-stamp: <Mon Oct 22 01:55:56 JST 2018 hamada>
 import random
 
-random.seed()
+random.seed(2)
 
 with open("log.txt", "r") as f:
     lines = f.read()
@@ -17,7 +17,7 @@ n = 1
 commits = []
 
 for s in lines:
-    c = random.uniform(1.5, 2.)
+    c = random.uniform(1.36, 2.)
     #print(n, x, c, s)
     commits.append({'n': n, 'x': x, 'c': c, 'hash': s})
     x = int(x * (c-0.5) + 0.5)
