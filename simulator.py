@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#Time-stamp: <Mon Oct 22 01:16:35 JST 2018 hamada>
+#Time-stamp: <Mon Oct 22 01:20:49 JST 2018 hamada>
 import random
 
 random.seed()
@@ -27,9 +27,9 @@ for s in lines:
 budget_JPY = 8000000
 
 md  = ''
-md += "# Initial Budget from a Client = %d JPY (example case)" % budget_JPY +"\n"
+md += "# Initial Budget from a Client = %d JPY (example case)" % budget_JPY +"\n\n"
 md += '| n | X(n) | C(n) | commit hash | balance (MAK) | Client\'s Budget (JPY) |' + "\n"
-md += '|---:|---:|---:|:---| ---:|' + "\n"
+md += '|---:|---:|---:|:---| ---:|---:|' + "\n"
 
 accum = 0
 

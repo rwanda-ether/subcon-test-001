@@ -17,8 +17,9 @@ This is a traning example for the Rwanda Ether community to share subcon works.
 ## Example of a simulating result
 
 # Initial Budget from a Client = 8000000 JPY (example case)
+
 | n | X(n) | C(n) | commit hash | balance (MAK) | Client's Budget (JPY) |
-|---:|---:|---:|:---| ---:|
+|---:|---:|---:|:---| ---:| ---:|
 | 1 | 100 | 1.974 | commit 404d41872bf4122dca45d5d159d47c39d6a71490 | 100 | 7999900|
 | 2 | 147 | 1.939 | commit a7f59116975c02adbe6060a387e7656d4c147942 | 247 | 7999753|
 | 3 | 212 | 1.631 | commit dbf68749cb635e55a5f5b63b4e1a5477752ea886 | 459 | 7999541|
