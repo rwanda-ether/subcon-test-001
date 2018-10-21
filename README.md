@@ -14,7 +14,7 @@ This is a traning example for the Rwanda Ether community to share subcon works.
 
 ## Example
 
-| n | X(n) | C(n) | commit hash | ballance (MAK) |
+| n | X(n) | C(n) | commit hash | balance (MAK) |
 |---:|---:|---:|:---| ---:|
 |12 | 2564  |  1.5  | commit be1f3408dc8edb7ed4d7e4f0a0bc3c89dc70ecd7 | 7895 |
 |11 | 1709  |  1.5  | commit 372ca29fba3a52bafc5d651c87fdaa0edd09ee0b | 5331 |
