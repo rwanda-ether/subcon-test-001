@@ -6,12 +6,12 @@ This is a traning example for the Rwanda Ether community to share subcon works.
 
 ## Incentive model
 
- * 1st commit: +100 MAK
- * 2nd commit: + X(1) MAK, the X(1) depends on the first commit.
- * n-th commit: + X(n-1) MAK, the X(n-1) depends on the (n-1) th commit.
- * X(n) = X(n-1) * (C(n-1) - 0.5)
- * 1.0 < C(n-1) < 2.0
- * C(n) is a quality coefficient for n-th commit. If the commit was good quality, C becomes close to 2.0. On the other hand, if it was normal quality, C is close to 1.0.
+ * 1st commit: you will get 100 MAK
+ * 2nd commit: you will get X(2) MAK
+ * n-th commit: you will get X(n) MAK
+ * recurrence relation: X(n) = X(n-1) * (C(n-1) - 0.5)
+ * quality coefficient: 1.0 < C < 2.0
+ * C is a quality coefficient for n-th commit. If the commit was good quality, C becomes close to 2.0. On the other hand, if it was normal quality, C is close to 1.0.
  * X(n) is rounded to the nearest even for each commit.
 
 ## Example of a simulating result
