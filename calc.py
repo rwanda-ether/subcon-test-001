@@ -23,6 +23,16 @@ for s in lines:
     n += 1
 
 
+md  = ''
+md += '| n | X(n) | C(n) | commit hash | balance (MAK) |' + "\n"
+md += '|---:|---:|---:|:---| ---:|' + "\n"
+
+accum = 0
 
 for s in commits:
-    print (s)
+    accum += s['x']
+    md += "| %d | %d | %1.3f | %s | %d |\n" % (s['n'], s['x'], s['c'], s['hash'], accum)
+
+
+print (md)
+
