@@ -9,6 +9,9 @@ This is a traning example for the Rwanda Ether community to share subcon works.
  * 1st commit: +100 MAK
  * 2nd commit: + X(1) MAK, the X(1) depends on the first commit.
  * n-th commit: + X(n-1) MAK, the X(n-1) depends on the (n-1) th commit.
+ * '''
+   X(n) = X(n-1) * C(n-1), 0.8 < C(n-1) < 1.2
+   '''
 
 ## Negative Incentive plan
 
