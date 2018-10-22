@@ -94,6 +94,7 @@ Initial Budget from a Client = 8000000 JPY (example case)
 <img src="./graph3.gif">
 
 
+
 ## Negative Incentive model
 
  * Annoyance: banned for 3 months, freeze the project (no commits for 3 months)
