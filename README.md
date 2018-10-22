@@ -83,11 +83,14 @@ Initial Budget from a Client = 8000000 JPY (example case)
 | 61 | 65160 | 1.807 | commit c681001505cb0b0870203c04ccac5492f455bc30 | 8000000 | 0|
 
 ### Graphs
-#### evolution of the balance
-<img src="./tgif.png">
+#### evolution of the balance and client's budget
+<img src="./graph1.gif">
 
 #### evolution of the balance and X(n)
-<img src="./img.gif">
+<img src="./graph2.gif">
+
+#### evolution of X(n) and C(n)
+<img src="./graph3.gif">
 
 
 ## Negative Incentive model
