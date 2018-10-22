@@ -83,6 +83,7 @@ Initial Budget from a Client = 8000000 JPY (example case)
 | 61 | 65160 | 1.807 | commit c681001505cb0b0870203c04ccac5492f455bc30 | 8000000 | 0|
 
 ### Graphs
+
 #### evolution of the balance and client's budget
 <img src="./graph1.gif">
 
